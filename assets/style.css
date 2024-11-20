@@ -14,7 +14,7 @@ body {
 
 .banner .content .title {
   font-family: "Hallowed Grounds";
-  font-size: 6em;
+  font-size: 9em;
 }
 
 .banner::before {
@@ -27,6 +27,6 @@ body {
   z-index: -1;
 
   mask-image: url(./img/Ink-I.png);
-  mask-image: cover;
+  mask-size: cover;
   mask-position: center;
 }
